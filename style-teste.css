@@ -1,6 +1,8 @@
 body {
-    background-color: #515751;
+    background-image: url(/img/background.jpg);
+    background-size:cover;
     font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke
 }
 
 .box-foto {
@@ -9,6 +11,7 @@ body {
    width: 350px;
    height: 350px;
    border-radius: 30%;
+   margin: 0 auto;
 }
 
 
