@@ -8,11 +8,14 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-#personal-photo {
-    border-radius: 50% 50%;
-    display:block;
-    margin: 0 auto
+.box-foto {
+   background-image: url(img/Foto-pessoal.jpeg);
+   background-size: 350px 350px;
+   width: 350px;
+   height: 350px;
+   border-radius: 30%;
 }
+
 
 .personal-list {
     margin: 0 auto;
