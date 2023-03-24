@@ -50,6 +50,9 @@ h1 {
 #personal-profile {
     text-align: center;
     font-size: 30px;
+    border-bottom: 5px seashell ridge;
+    padding-bottom: 5px;
+    
 }
 
 .img-icon {
