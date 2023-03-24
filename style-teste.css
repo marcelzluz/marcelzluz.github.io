@@ -15,8 +15,8 @@ body {
     border: 5px solid white;
     border-radius: 15px;
     margin: 0 auto;
-    max-width: 1000px;
-    padding: 30px;
+    max-width: 900px;
+    padding: 40px;
 }
 
 .box-foto {
@@ -31,7 +31,7 @@ body {
 
 
 h1 {
-    border: 5px solid whitesmoke;
+    border: 5px solid wheat;
     border-radius: 15px;
     display: block;
     margin: 0 auto;
@@ -41,7 +41,7 @@ h1 {
 }
 
 .layout-interno {
-    border: 5px solid white;
+    border: 5px solid yellowgreen;
     border-radius: 15px;
     margin-top: 25px;
     padding: 30px;
@@ -49,7 +49,7 @@ h1 {
 }
 
 #personal-profile {
-    border-bottom: 5px seashell ridge;
+    border-bottom: 5px ridge rosybrown;
     font-size: 30px;
     padding-bottom: 5px;
     text-align: center;
@@ -82,8 +82,8 @@ h1 {
 }
 
 .layout-texto {
-    border: 5px solid white;
-    margin: 50px;
-    overflow-y: auto;
+    border: 5px solid red;
+    border-radius: 15px;
+    margin: 30px;
     padding: 50px;
 }
