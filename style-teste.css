@@ -1,9 +1,9 @@
 body {
     background-image: url(/img/background.jpg);
-    background-size:cover;
-    font-family: 'Courier New', Courier, monospace;
-    color: whitesmoke;
     background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #version {
@@ -13,66 +13,77 @@ body {
 
 .layout-externo {
     border: 5px solid white;
-    padding: 30px;
     border-radius: 15px;
-    
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 30px;
 }
 
 .box-foto {
-   background-image: url(img/Foto-pessoal.jpeg);
-   background-size: 250px 250px;
-   width: 250px;
-   height: 250px;
-   border-radius: 30%;
-   margin: 0 auto;
+    background-image: url(img/Foto-pessoal.jpeg);
+    background-size: 250px 250px;
+    border-radius: 30%;
+    height: 250px;
+    margin: 0 auto;
+    width: 250px;
 }
 
 
 
 h1 {
     border: 5px solid whitesmoke;
-    width: fit-content;
-    padding: 10px;
+    border-radius: 15px;
     display: block;
     margin: 0 auto;
     margin-top: 10px;
-    border-radius: 15px;
+    padding: 10px;
+    width: fit-content;
 }
 
 .layout-interno {
-    margin-top: 25px;
-    text-align: justify;
     border: 5px solid white;
-    padding: 30px;
     border-radius: 15px;
+    margin-top: 25px;
+    padding: 30px;
+    text-align: justify;
 }
 
 #personal-profile {
-    text-align: center;
-    font-size: 30px;
     border-bottom: 5px seashell ridge;
+    font-size: 30px;
     padding-bottom: 5px;
-    
+    text-align: center;
+
 }
 
 .img-icon {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .img-github {
-    width: 80px;
-    margin-bottom: 15px;
-    
+    margin-bottom: 5px;
+    width: 78px;
+}
+
+.github {
+    padding-top: 12px;
 }
 
 .img-linkedin {
     display: inline;
-    width: 105px;
+    width: 100px;
 }
 
 
 .personal-list {
     margin: 0 auto;
     display: block;
+}
+
+.layout-texto {
+    border: 5px solid white;
+    margin: 50px;
+    overflow-y: auto;
+    padding: 50px;
 }
