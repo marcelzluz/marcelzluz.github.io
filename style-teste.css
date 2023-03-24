@@ -40,8 +40,21 @@ h1 {
 }
 
 .img-icon {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-github {
+    width: 80px;
+    margin-bottom: 15px;
     
 }
+
+.img-linkedin {
+    display: inline;
+    width: 105px;
+}
+
 
 .personal-list {
     margin: 0 auto;
