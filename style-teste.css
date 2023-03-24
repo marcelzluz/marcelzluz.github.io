@@ -39,6 +39,19 @@ h1 {
     border-radius: 15px;
 }
 
+.layout-interno {
+    margin-top: 25px;
+    text-align: justify;
+    border: 5px solid white;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+#personal-profile {
+    text-align: center;
+    font-size: 30px;
+}
+
 .img-icon {
     display: flex;
     justify-content: space-around;
@@ -58,5 +71,5 @@ h1 {
 
 .personal-list {
     margin: 0 auto;
-    width: 20%; 
+    display: block;
 }
