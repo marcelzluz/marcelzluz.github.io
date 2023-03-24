@@ -2,21 +2,48 @@ body {
     background-image: url(/img/background.jpg);
     background-size:cover;
     font-family: 'Courier New', Courier, monospace;
-    color: whitesmoke
+    color: whitesmoke;
+    background-repeat: no-repeat;
+}
+
+#version {
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.layout-externo {
+    border: 5px solid white;
+    padding: 30px;
+    border-radius: 15px;
+    
 }
 
 .box-foto {
    background-image: url(img/Foto-pessoal.jpeg);
-   background-size: 350px 350px;
-   width: 350px;
-   height: 350px;
+   background-size: 250px 250px;
+   width: 250px;
+   height: 250px;
    border-radius: 30%;
    margin: 0 auto;
 }
 
 
+
+h1 {
+    border: 5px solid whitesmoke;
+    width: fit-content;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+.img-icon {
+    
+}
+
 .personal-list {
     margin: 0 auto;
-    width: 20%; /* Valor da Largura */
-
+    width: 20%; 
 }
